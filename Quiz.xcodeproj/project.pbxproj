@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		AF3983951DCDAE33006503FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3983941DCDAE33006503FC /* AppDelegate.swift */; };
 		AF3983971DCDAE33006503FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3983961DCDAE33006503FC /* ViewController.swift */; };
-		AF39839A1DCDAE33006503FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF3983981DCDAE33006503FC /* Main.storyboard */; };
 		AF39839C1DCDAE33006503FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF39839B1DCDAE33006503FC /* Assets.xcassets */; };
 		AF39839F1DCDAE33006503FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF39839D1DCDAE33006503FC /* LaunchScreen.storyboard */; };
 		AF3983AA1DCDAE34006503FC /* QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3983A91DCDAE34006503FC /* QuizTests.swift */; };
 		AF3983B51DCDAE34006503FC /* QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3983B41DCDAE34006503FC /* QuizUITests.swift */; };
+		AF3983C31DCDAF4A006503FC /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3983C21DCDAF4A006503FC /* QuizViewController.swift */; };
+		AF3983C51DCDAF7E006503FC /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3983C41DCDAF7E006503FC /* ResultViewController.swift */; };
+		AF3983CD1DCDD1E0006503FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF3983CC1DCDD1E0006503FC /* Main.storyboard */; };
+		AF3983CF1DCDD43D006503FC /* 画像１.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3983CE1DCDD43D006503FC /* 画像１.png */; };
+		AF3983D11DCDD44A006503FC /* 画像１ のコピー.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3983D01DCDD44A006503FC /* 画像１ のコピー.png */; };
+		AF3983D31DCDD4F0006503FC /* 画像２.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF3983D21DCDD4F0006503FC /* 画像２.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,6 @@
 		AF3983911DCDAE33006503FC /* Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF3983941DCDAE33006503FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF3983961DCDAE33006503FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AF3983991DCDAE33006503FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF39839B1DCDAE33006503FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF39839E1DCDAE33006503FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF3983A01DCDAE34006503FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +51,12 @@
 		AF3983B01DCDAE34006503FC /* QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF3983B41DCDAE34006503FC /* QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizUITests.swift; sourceTree = "<group>"; };
 		AF3983B61DCDAE34006503FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF3983C21DCDAF4A006503FC /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		AF3983C41DCDAF7E006503FC /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		AF3983CC1DCDD1E0006503FC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		AF3983CE1DCDD43D006503FC /* 画像１.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "画像１.png"; sourceTree = "<group>"; };
+		AF3983D01DCDD44A006503FC /* 画像１ のコピー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "画像１ のコピー.png"; sourceTree = "<group>"; };
+		AF3983D21DCDD4F0006503FC /* 画像２.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "画像２.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +107,17 @@
 		AF3983931DCDAE33006503FC /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				AF3983D21DCDD4F0006503FC /* 画像２.jpg */,
+				AF3983D01DCDD44A006503FC /* 画像１ のコピー.png */,
+				AF3983CE1DCDD43D006503FC /* 画像１.png */,
 				AF3983941DCDAE33006503FC /* AppDelegate.swift */,
 				AF3983961DCDAE33006503FC /* ViewController.swift */,
-				AF3983981DCDAE33006503FC /* Main.storyboard */,
+				AF3983CC1DCDD1E0006503FC /* Main.storyboard */,
 				AF39839B1DCDAE33006503FC /* Assets.xcassets */,
 				AF39839D1DCDAE33006503FC /* LaunchScreen.storyboard */,
 				AF3983A01DCDAE34006503FC /* Info.plist */,
+				AF3983C21DCDAF4A006503FC /* QuizViewController.swift */,
+				AF3983C41DCDAF7E006503FC /* ResultViewController.swift */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -229,9 +244,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF3983D31DCDD4F0006503FC /* 画像２.jpg in Resources */,
+				AF3983CD1DCDD1E0006503FC /* Main.storyboard in Resources */,
+				AF3983CF1DCDD43D006503FC /* 画像１.png in Resources */,
 				AF39839F1DCDAE33006503FC /* LaunchScreen.storyboard in Resources */,
 				AF39839C1DCDAE33006503FC /* Assets.xcassets in Resources */,
-				AF39839A1DCDAE33006503FC /* Main.storyboard in Resources */,
+				AF3983D11DCDD44A006503FC /* 画像１ のコピー.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF3983C31DCDAF4A006503FC /* QuizViewController.swift in Sources */,
 				AF3983971DCDAE33006503FC /* ViewController.swift in Sources */,
 				AF3983951DCDAE33006503FC /* AppDelegate.swift in Sources */,
+				AF3983C51DCDAF7E006503FC /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +313,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AF3983981DCDAE33006503FC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF3983991DCDAE33006503FC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AF39839D1DCDAE33006503FC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
